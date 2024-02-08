@@ -1,0 +1,183 @@
+body {
+    background: linear-gradient(to  right, orange, mediumvioletred, darkviolet);
+    background: linear-gradient(to top right, orange, mediumvioletred, darkviolet );
+ 
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+
+}
+*{
+    border: 0;
+}
+.card1 {
+    width: 300px;
+    height: 420px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-200%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.6);
+
+}
+
+.card2 {
+    width: 300px;
+    height: 420px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.6);
+
+}
+
+.card3 {
+    width: 300px;
+    height: 420px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(100%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.6);
+
+}
+
+.renk1 {
+    background-color: orange;
+    width: 100%;
+    height: 220px;
+    border-radius: 20px 20px 50% 50%;
+    text-align: justify;
+    transition: 1s;
+
+}
+
+.renk2 {
+    background-color: mediumvioletred;
+    width: 100%;
+    height: 220px;
+    border-radius: 20px 20px 50% 50%;
+    text-align: justify;
+    transition: 1s;
+
+}
+
+.renk3 {
+    background-color: darkviolet;
+    width: 100%;
+    height: 220px;
+    border-radius: 20px 20px 50% 50%;
+    text-align: justify;
+    transition: 1s;
+
+}
+
+.renk1 p {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.renk2 p {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.renk3 p {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    line-height: 200px;
+    font-family: 'Anton', sans-serif;
+}
+
+.card1:hover .renk1 {
+    height: 420px;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+}
+
+.card1:hover body {
+    opacity: 0.5;
+}
+
+.card2:hover .renk2 {
+    height: 420px;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+}
+
+.card2:hover body {
+    opacity: 0.5;
+}
+
+.card3:hover .renk3 {
+    height: 420px;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+}
+
+.card3:hover body {
+    opacity: 0.5;
+}
+
+.button1 {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.6);
+    background-color: orange;
+    color: white;
+    border-radius: 40px;
+
+}
+.button2 {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.6);
+    background-color: mediumvioletred;
+    color: white;
+    border-radius: 40px;
+
+}
+.button3 {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.6);
+    background-color: darkviolet;
+    color: white;
+    border-radius: 40px;
+
+}
