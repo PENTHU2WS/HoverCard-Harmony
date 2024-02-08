@@ -13,5 +13,5 @@ HoverCard Harmony is a simple and stylish web design project that enhances user 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/HoverCard-Harmony.git
+   git clone https://github.com/PENTHU2WS/HoverCard-Harmony
    
